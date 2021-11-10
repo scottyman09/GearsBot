@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# USE THE SINGLE SENSOR LINE FOLLOWER ROBOT
-
 # Import the necessary libraries
 import time
 import math
