@@ -4,4 +4,4 @@
 
 ### How to use
 
-At the top of the python file you will find the robot that I used under !/usr/bin/env python3. To select the robot click the robot button on the top menu
+At the top of the python file you will find the robot that I used under !/usr/bin/env python3 or in the README in the folder. To select the robot click the robot button on the top menu
