@@ -29,12 +29,18 @@ motorD = LargeMotor(OUTPUT_D) # Magnet
 
 # Here is where your code starts
 
-tank_drive.on_for_rotations(-20, -20, 9)
+speed = 80
 
-tank_drive.on_for_rotations(-20, 20, 0.68)
+tank_drive.on_for_rotations(-40, -40, 9)
 
-tank_drive.on_for_rotations(-20, -20, 3)
+tank_drive.off(brake=True)
+
+tank_drive.on_for_rotations(-20, 20, 0.67)
+
+tank_drive.on_for_rotations(-30, -30, 3)
 
 while True: 
-    tank_drive.on_for_rotations(20, 20, 5)
-    tank_drive.on_for_rotations(-20, -20, 5)
+    tank_drive.on_for_rotations(30, 30, 4)
+    tank_drive.off(brake=True)
+    tank_drive.on_for_rotations(-30, -30, 4)
+    tank_drive.off(brake=True)
